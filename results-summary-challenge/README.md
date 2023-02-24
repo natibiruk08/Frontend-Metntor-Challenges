@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/qrcodechallenge-2yrrbnQaig)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/results-summary-page-jR_ovrfD0-)
 - Live Site URL: [Live Site](https://papaya-kheer-509e4c.netlify.app)
 
 ## My process
