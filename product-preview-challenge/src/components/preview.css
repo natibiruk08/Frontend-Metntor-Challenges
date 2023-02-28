@@ -1,0 +1,126 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  scale: 0.9;
+}
+
+img {
+  height: 500px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.info {
+  background-color: hsl(0, 0%, 100%);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  opacity: 0.4;
+  letter-spacing: 5px;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.info h1 {
+  font-family: "Fraunces", serif;
+  font-size: 34px;
+  padding-right: 80px;
+}
+
+.info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  opacity: 0.4;
+  line-height: 27px;
+  padding-right: 50px;
+  margin-top: 0;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.price h2 {
+  padding-right: 20px;
+  font-size: 38px;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  margin: 0;
+}
+
+.price p {
+  padding-top: 9px;
+  text-decoration-line: line-through;
+  margin: 0;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-right: 40px;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+button img {
+  margin-right: 15px;
+  height: 22px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsl(155, 41.3%, 18%);
+}
+
+@media (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    max-width: 380px;
+  }
+
+  img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    content: url(../assets//images/image-product-mobile.jpg);
+  }
+
+  .info {
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 0;
+  }
+
+  button img {
+    width: auto;
+    content: none;
+  }
+
+  .info p {
+    padding-right: 10px;
+  }
+}
