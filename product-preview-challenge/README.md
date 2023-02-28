@@ -34,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Responsive design
+Responsive design (more in depth responsive design patterns)
 
 ## Author
 
