@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Product preview challenge solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -20,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/results-summary-page-jR_ovrfD0-)
+- Solution URL: [Solution Link](https://www.frontendmentor.io/solutions/product-preview-challenge-7O_3IKee2W)
 - Live Site URL: [Live Site](https://mellow-chaja-906514.netlify.app)
 
 ## My process
